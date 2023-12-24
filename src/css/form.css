@@ -1,0 +1,86 @@
+form {
+    width: 100%;
+    max-width: 30rem;
+    padding: 2.5%;
+}
+
+.i,
+.t,
+.b {
+    /* label, input, textarea, button */
+    display: block;
+}
+
+.i,
+.t,
+.b {
+    width: 100%;
+    font: inherit;
+    padding: 1.25rem;
+    font-weight: 700;
+}
+
+.i,
+.t {
+    color: black;
+    background: rgb(200, 200, 200);
+    border: 0.125rem solid transparent;
+    border-radius: 1.125rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.i:hover,
+.i:focus,
+.t:hover,
+.t:focus {
+    outline: none;
+    border-color: rgb(163, 163, 163);
+    box-shadow: 0 0 0 0.125rem rgb(131, 131, 131);
+}
+
+textarea.t {
+    min-height: 12.5rem;
+    resize: none;
+}
+
+button.b {
+    border: none;
+    border-radius: 99px;
+    color: black;
+    background: rgb(255, 204, 109);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button.b:hover,
+button.b:focus {
+    outline: none;
+    background: rgb(255, 185, 60);
+}
+
+button.b:disabled {
+    cursor: not-allowed;
+    background: #555b69;
+}
+
+
+
+.success,
+.error {
+    text-align: center;
+}
+
+.success {
+    color: greenyellow;
+}
+
+.error {
+    color: tomato;
+}
+
+.formErrors {
+    color: red;
+    height: 1.5rem;
+    font-size: 14px;
+    white-space: nowrap;
+}

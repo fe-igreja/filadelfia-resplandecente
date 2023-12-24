@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igreja Filadélfia</title> 
+    <link rel="shortcut icon" href="src/image/Icone IG - Preto.jpg" type="image/x-icon">
+
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/navbar.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <script defer src="src/js/nav-reponsive.js"></script>
+
+    <!-- ======= [NAV] Menu Hamburguer ======= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- ===================================== -->
+</head>
+
+<body>
+    <header> <!-- [NAV] -->
+        <nav>
+            <a href="index.html">Filadélfia</a>
+                <label for="toggler">
+                    <i class="fa fa-bars"></i>
+                </label>
+            <input type="checkbox" id="toggler" name="nav-responsive" onclick="MenuResponsivo()">
+                <div class="menu">
+                    <ul class="list">
+                        <li><a style="color: black; background-color: white; text-decoration: underline;" href="index.html">Início</a></li>
+                        <li><a href="src/pages/eventos.html">Eventos</a></li>
+                        <li><a href="src/pages/oracao.html">Oração</a></li>
+                    </ul>
+                </div>
+            </nav>
+    </header> <!-- [NAV] -->
+
+    <img style="position: absolute; top: 6.5%;" class="fundo_bg" src="src/image/IG image.png" alt="Imagem da Igreja">
+
+
+    <main id="main_do_index" style="margin-top: 36%;">
+        <section class="conteudo">
+            <div class="circulo_img_conteudo" style="background: url('src/image/Icone IG - Dourado.jpg') center center no-repeat; background-size: cover;
+            box-shadow: -11px 11px 20px 5px rgba(0,0,0,0.8);"></div>
+            <div class="txt">
+                <h1><strong>A 20 anos</strong> Propagando o Evangelho do Rei Jesus</h1><br>
+                <blockquote>
+                    <p>E ao anjo da igreja que está em Filadélfia escreve: Isto diz o que o Santo, o que é verdadeiro, o que tem a chave de Davi, o que abre, e ninguém fecha, e fecha, e ninguém abre.</p> <cite>Apocalípse 3:7</cite>
+                </blockquote>
+            </div>
+        </section>
+
+        <section class="conteudo2">
+            <div class="txt">
+                <h1>Cultos Semanais</h1><br>
+                <p><strong>Quartas</strong> e <strong>Sextas</strong> das 19h às 20h30<br>
+                <strong>Domingos</strong> das 18h às 19h30.</p>
+            </div>
+            <div class="circulo_img_conteudo" style="background: url('src/image/Blíbia.jpg') center center; background-size: cover;
+            box-shadow: inset -10px 10px 25px 15px rgba(0,0,0,1.2);"></div>
+        </section>
+
+        <section class="conteudo">
+            <div class="circulo_img_conteudo" style="background: url('src/image/HMD - IG - Icone.jpg') top center no-repeat; background-size: cover;
+            box-shadow: -11px 11px 20px 5px rgba(0,0,0,0.8);"></div>
+            <div class="txt">
+                <h1>Oração do Meio Dia</h1><br>
+                <p>Oração todos os <strong>Sábados</strong> as 12h.<br>
+                <strong>Orar</strong> parece ser nosso último recurso, uma coisa que só fazemos quando não temos mais esperança. <strong>Mas a oração é a nossa maior arma!</strong></p>
+            </div>
+            <!-- Botão de linkar para a pág de Pedido de Oração -->
+            <a href="src/pages/oracao.html"><button class="linkar" style="box-shadow: -11px 11px 20px 5px rgba(0,0,0,0.8);">Faça Seu Pedido de Oração!</button></a>
+        </section>
+    </main>
+
+    
+    <footer>
+        <section class="foote">
+            <div>
+                <a href="https://www.instagram.com/filadelfiaresplandecente/" target="_blank"><img src="src/image/icons-contact/instagram.png" alt="Instagram"></a> 
+                <a href="https://www.youtube.com/channel/UCHBtJkF1gcqaUREdnzwhzOQ" target="_blank"><img src="src/image/icons-contact/youtube.png" alt="Youtube"></a>
+                <a href="https://www.google.com/maps/dir//R.+Odílio+Figueiredo,+105+-+Romeirao,+Juazeiro+do+Norte+-+CE,+63050-740/@-7.226035,-39.4005465,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x7a1789dcb03e851:0x521302d9cfe837d0!2m2!1d-39.3181307!2d-7.2260418?entry=ttu" target="_blank">
+                    <img src="src/image/icons-contact/localizacao.png" alt="Icone de Local"></a>
+            </div>
+            <div>
+                <h3><strong>R. Odílio Figueiredo, 105 - Romeirão, Juazeiro do Norte - CE</strong></h3>
+            </div>
+        </section>
+        <div><h4 class="direitos_reservados"></h4></div>
+    </footer>
+
+    <!-- 
+    ========== : Agradecimentos : ==========
+    A Nathanael Bueno pela iniciativa e desenvolvimento do projeto. Ao ${dede}(usuário do Discord), vulgo Alan, por ajudar na correção e auxílio back-end no projeto. E ao usuário Hight Quality Icons pelos icones disponibilizados na plataforma da Flaticon.
+
+    ========== : Links : ==========
+    Nathanael Bueno: https://github.com/Noxt-5111
+    Alan: (Não quis expor seu Github)
+    Hight Quality Icons: https://www.flaticon.com/br/autores/hight-quality-icons
+
+    Flaticon: https://www.flaticon.com/br/
+     -->
+</body>
+</html>
