@@ -1,0 +1,85 @@
+/* ---------------------- footer da pagina ---------------------- */
+.icone-footer{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: white;
+}
+.icone-footer img{
+    width: 100%;
+    height: 100%;
+}
+
+.icone-footer :hover{
+    scale: 1.25;
+    border-radius: 50%;
+    transition: 0.005s;
+}
+
+.icone-footer.insta :hover{
+    transition: 0.5s;
+    background: #E2CD11;
+    background: -moz-linear-gradient(45deg, #E2CD11 0%, #DB4276 45%, #930B68 100%);
+    background: -webkit-linear-gradient(45deg, #E2CD11 0%, #DB4276 45%, #930B68 100%);
+    background: linear-gradient(45deg, #E2CD11 0%, #DB4276 45%, #930B68 100%);
+}
+
+.icone-footer.youtb :hover{
+    transition: 0.5s;
+    background: #912626;
+    background: -moz-linear-gradient(45deg, #912626 0%, #A01515 37%, #FF0000 100%);
+    background: -webkit-linear-gradient(45deg, #912626 0%, #A01515 37%, #FF0000 100%);
+    background: linear-gradient(45deg, #912626 0%, #A01515 37%, #FF0000 100%);
+}
+
+.icone-footer.localiz :hover{
+    transition: 0.5s;
+    background: #F5D79B;
+    background: -moz-linear-gradient(45deg, #F5D79B 0%, #BEA778 46%, #7C6D4F 100%);
+    background: -webkit-linear-gradient(45deg, #F5D79B 0%, #BEA778 46%, #7C6D4F 100%);
+    background: linear-gradient(45deg, #F5D79B 0%, #BEA778 46%, #7C6D4F 100%);
+}
+
+
+
+/* ---------------------- menu mobile ---------------------- */
+#mobile-menu {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    scrollbar-color: #4a5568 #1a1a1a !important;
+    scrollbar-width: thin !important;
+}
+
+#mobile-menu.active {
+    max-height: 85dvh;
+    opacity: 1;
+    margin-top: 0.5rem;
+}
+
+/* Estilização da scrollbar */
+#mobile-menu::-webkit-scrollbar {
+    width: 8px;
+}
+
+#mobile-menu::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+#mobile-menu::-webkit-scrollbar-thumb {
+    background: #4a5568;
+    border-radius: 4px;
+}
+
+#mobile-menu.active {
+    max-height: 70vh !important;
+    opacity: 1 !important;
+}
+
+/* Melhora o espaçamento dos itens */
+@media (max-width: 767px) {
+    #mobile-menu a {
+        margin: 0 1rem;
+    }
+}
